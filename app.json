@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "react-native-expo-bare-advanced-example",
+    "slug": "react-native-expo-bare-advanced-example",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
