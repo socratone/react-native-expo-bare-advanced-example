@@ -1,8 +1,8 @@
 # React Native Expo Bare Advanced Example
 
-# Initial Installation Process
+# 초기 설치 과정
 
-## 설치
+## Expo를 이용한 React Native 설치
 
 `expo init react-native-expo-bare-advanced-example`
 
@@ -32,3 +32,11 @@ https://docs.expo.dev/guides/typescript/
 
 https://reactnavigation.org/docs/getting-started
 https://reactnavigation.org/docs/hello-react-navigation
+
+# React Native SVG
+
+## 설치
+
+`expo install react-native-svg`
+
+https://github.com/react-native-svg/react-native-svg
