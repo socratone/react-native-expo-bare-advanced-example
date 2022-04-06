@@ -19,3 +19,16 @@ https://docs.expo.dev/
 `mv App.js App.tsx`
 
 https://docs.expo.dev/guides/typescript/
+
+## React Navigation 설치
+
+`yarn add @react-navigation/native`
+
+`yarn add react-native-screens react-native-safe-area-context`
+
+`npx pod-install ios`
+
+`yarn add @react-navigation/native-stack`
+
+https://reactnavigation.org/docs/getting-started
+https://reactnavigation.org/docs/hello-react-navigation
