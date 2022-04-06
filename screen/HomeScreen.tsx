@@ -1,15 +1,23 @@
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
-import { Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
+import Button from '../components/common/Button/Button';
 import { StackParamList } from '../Navigation';
 
 type Props = NativeStackScreenProps<StackParamList, 'Home'>;
 
-const HomeScreen = () => {
+const HomeScreen = ({ navigation }: Props) => {
   return (
-    <View>
-      <Text>hello home</Text>
+    <View style={styles.container}>
+      <Button onPress={() => navigation.navigate('SVG')}>SVG</Button>
     </View>
   );
 };
+
+const styles = StyleSheet.create({
+  container: {
+    alignItems: 'center',
+    paddingVertical: 10,
+  },
+});
 
 export default HomeScreen;
