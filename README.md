@@ -2,6 +2,14 @@
 
 React Native Expo Bare 프로젝트를 다양하게 사용하기 위한 예제 코드를 작성합니다.
 
+## Scripts
+
+### `yarn start`
+
+local dev server 실행
+
+https://docs.expo.dev/workflow/expo-cli/
+
 ## 초기 설치 과정
 
 ### Expo를 이용한 React Native 설치
